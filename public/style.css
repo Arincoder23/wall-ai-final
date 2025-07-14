@@ -1,0 +1,38 @@
+.gradient-background {
+    background: linear-gradient(300deg, #04395E, #70A288, #D5896F);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .nav-link.active{
+    background-color: #ff5733 !important; /* Change to your preferred color */
+    color: white !important;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    padding: 8px 15px;
+  }
+
+
+
+
+
+
+
+  .card{
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
